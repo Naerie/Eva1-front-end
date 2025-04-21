@@ -34,6 +34,10 @@ header{
     padding: 20px;
 }
 
+.formulario h3{
+    text-align: center;
+    padding: 30px;
+}
 
 
 .texto{
@@ -57,4 +61,17 @@ header{
 input{
     display: block;
     margin-bottom: 5px;
+}
+
+.btn{
+    background-color: pink;
+    color: white;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+    
 }
