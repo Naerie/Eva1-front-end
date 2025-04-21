@@ -17,3 +17,44 @@ header{
     margin: 120px;
 }
 
+.banner{
+    background-color: pink;
+    position: relative;
+    display: flex;
+}
+
+.banner img{
+    height: 500px;
+    opacity: 85%;
+    
+}
+
+.formulario{
+    background-color: #c7c7c7;
+    padding: 20px;
+}
+
+
+
+.texto{
+    text-align: center;
+    color: white;
+    position: absolute;
+    width: 500px;
+    padding-left: 150px;
+    padding-top: 100px;
+}
+
+.texto h1{
+    font-weight: 800;
+    font-size: 60px;
+}
+.texto p{
+    font-weight: 500;
+
+}
+
+input{
+    display: block;
+    margin-bottom: 5px;
+}
