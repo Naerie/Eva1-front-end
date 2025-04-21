@@ -21,32 +21,45 @@ header{
     background-color: pink;
     position: relative;
     display: flex;
+    justify-content: space-between;
+    align-content: center;
+
 }
 
 .banner img{
     height: 500px;
     opacity: 85%;
+    width: 100%;
     
 }
 
 .formulario{
-    background-color: #c7c7c7;
+    background-color: #e9e9e980;
     padding: 20px;
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    max-width: 300px;
 }
 
 .formulario h3{
     text-align: center;
-    padding: 30px;
+    padding: 15px;
 }
+.formulario p{
+    margin-bottom: 15px;
 
+}
 
 .texto{
     text-align: center;
     color: white;
     position: absolute;
     width: 500px;
-    padding-left: 150px;
-    padding-top: 100px;
+    top: 20%;
+    left: 10%;
+
+
 }
 
 .texto h1{
@@ -72,6 +85,31 @@ input{
     padding-right: 20px;
     padding-top: 5px;
     padding-bottom: 5px;
+
     
     
+}
+
+.content p{
+    text-align: center;
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+    
+}
+
+.footer-banner{
+    margin-top: 50px;
+    background-color: pink;
+    color: gray;
+    text-align: center;
+    padding: 60px;
+    font-size: 10px;
+}
+
+footer p{
+    color: gray;
+    font-size: 10px;
+    text-align: center;
+    padding: 30px;
 }
